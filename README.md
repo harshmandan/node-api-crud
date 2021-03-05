@@ -7,7 +7,7 @@ Made with expressJS.
 # Requirements
 
 - NodeJS v10+
-- MongoDB installing and `mongod` instance running before running `npm start`
+- MongoDB installed and `mongod` instance running before running `npm start`
 
 # Installation & Usage
 
