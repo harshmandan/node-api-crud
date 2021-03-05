@@ -19,7 +19,7 @@ Made with expressJS.
  
 # Documentation
 
-**Local Host with Port**: `localhost:3099`
+**Local Hostname with Port**: `localhost:3099`
 
 ## Authentication routes:
 
