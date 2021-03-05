@@ -12,7 +12,7 @@ Made with expressJS.
 # Installation & Usage
 
   Installation:
-   - Clone this repo.
+   - Clone this repo. `git clone https://github.com/harshmandan/node-api-crud.git`
    - Then run `npm install` to install dependencies
    - Then start the nodejs server using `npm start`
 
