@@ -1,12 +1,18 @@
 
   
-# FELB2BNode
-FunEduLearn Coaching Tech
+# Node API Challenge
+A simple Node.JS API with basic JWT authentication, image resizing and json-patch examples.
+Made with expressJS.
 
-# Installation & Usage  
+# Requirements
+
+- NodeJS v10+
+- MongoDB installing and `mongod` instance running before running `npm start`
+
+# Installation & Usage
 
   Installation:
-   - Clone this repo.
+   - Clone this repo. `git clone https://github.com/harshmandan/node-api-crud.git`
    - Then run `npm install` to install dependencies
    - Then start the nodejs server using `npm start`
 
