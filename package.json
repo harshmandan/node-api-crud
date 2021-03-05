@@ -1,0 +1,41 @@
+{
+  "name": "nodejsapi",
+  "version": "1.0.0",
+  "description": "Simple Node.js CRUD API with JWT Auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshmandan/nobi-api-crud.git"
+  },
+  "author": "Harsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshmandan/nobi-api-crud/issues"
+  },
+  "homepage": "https://github.com/harshmandan/nobi-api-crud#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.1.0",
+    "helmet": "^4.4.1",
+    "http": "^0.0.1-security",
+    "jsonpatch": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.17",
+    "morgan": "^1.9.0",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "pug": "^3.0.0",
+    "resize-img": "^2.0.0"
+  }
+}
