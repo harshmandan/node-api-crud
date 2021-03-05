@@ -135,6 +135,8 @@ Required parameter in the JSON body:
 "link": "https://www.nasa.gov/sites/default/files/thumbnails/image/mars2020-sample-tubes.jpg"
 ```
 
+Note: Image URL should end in an extension! If not an error will be returned. Most image formats are supported.
+
 **Responses can be:**
 
 | Status Code | Meaning |
