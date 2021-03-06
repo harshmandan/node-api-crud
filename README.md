@@ -110,17 +110,18 @@ At least 1 parameter is required in the JSON body: The fields that can be update
 
 Send JSON object to be patched as `doc` and the patch as `patch`. Example:
 ```json
-"patch": [
-	{ "op": "replace", "path": "/baz", "value": "boo" },
-	{ "op": "add", "path": "/hello", "value": ["world"] },
-	{ "op": "remove", "path": "/foo" }
-],
-"doc": {
-	 "baz":  "qux",
-	 "foo":  "bar"
+{
+	"patch": [
+		{ "op": "replace", "path": "/baz", "value": "boo" },
+		{ "op": "add", "path": "/hello", "value": ["world"] },
+		{ "op": "remove", "path": "/foo" }
+	],
+	"doc": {
+		 "baz":  "qux",
+		 "foo":  "bar"
+	}
 }
 ```
-Note: Above request would update the name and unset/remove the address.
 
 **Responses can be:**
 
