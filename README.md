@@ -139,7 +139,9 @@ Send JSON object to be patched as `doc` and the patch as `patch`. Example:
 Required parameter in the JSON body:
 
 ```json
-"link": "https://www.nasa.gov/sites/default/files/thumbnails/image/mars2020-sample-tubes.jpg"
+{
+	"link": "https://www.nasa.gov/sites/default/files/thumbnails/image/mars2020-sample-tubes.jpg"
+}
 ```
 
 Note: Image URL should end in an extension! If not an error will be returned. Most image formats are supported.
