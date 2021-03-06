@@ -104,9 +104,9 @@ At least 1 parameter is required in the JSON body: The fields that can be update
  
   ---
 
-**Update profile/Add address - JSON Patch**
+**JSON Patch**
 
-- **POST**  `/user/patch_json`: Update user profile.
+- **POST**  `/user/patch_json`: Patch given json using the `jsonpatch` RFC.
 
 Send JSON object to be patched as `doc` and the patch as `patch`. Example:
 ```json
